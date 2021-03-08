@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "@apollo/client": "^3.3.11",
+    "apollo-datasource": "^0.7.3",
     "apollo-server-micro": "^2.21.0",
+    "dataloader": "^2.0.0",
     "graphql": "^15.5.0",
     "next": "^10.0.8",
     "prop-types": "^15.7.2",

@@ -1,7 +1,8 @@
 import { ApolloServer } from 'apollo-server-micro'
 import { schema } from '../../apollo/schema'
+import { dataSources } from '../../apollo/datasources'
 
-const apolloServer = new ApolloServer({ schema })
+export const apolloServer = new ApolloServer({ dataSources, schema })
 
 export const config = {
   api: {
